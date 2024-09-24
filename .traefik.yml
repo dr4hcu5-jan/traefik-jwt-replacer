@@ -1,0 +1,7 @@
+displayName: JWT Replacer
+type: middleware
+import: github.com/dr4hcu5-jan/traefik-jwt-replacer
+summary: |
+  A middleware to validate incoming JWTs and replace them with ones generated
+  by the Traefik Host to obfuscate the original JWTs for downstream services
+testData: {}
